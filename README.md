@@ -170,8 +170,8 @@ Repository of information to use CockroachDB within Cox Edge.
 
 10.  Once you have started each node, you should be able to see that various files were created in the data directory, and there should be some messages getting logged to the cockroach.log file.
 
-		ls -alh /var/lib/data/cockroach-data/
-		tail -f /var/lib/data/cockroach-data/logs/cockroach.log
+        ls -alh /var/lib/data/cockroach-data/
+        tail -f /var/lib/data/cockroach-data/logs/cockroach.log
 
       The log messages should indicate that the nodes have found each other and are waiting to be initialized.
 
